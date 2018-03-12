@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.amily.continentes.MainActivity">
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="332dp"
+        android:layout_height="29dp"
+        android:entries="@array/continentes"
+        android:prompt="@string/continente_prompt"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="101dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Listar"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="174dp"
+        android:onClick="tela2"/>
+
+</android.support.constraint.ConstraintLayout>
